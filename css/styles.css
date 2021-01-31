@@ -123,6 +123,7 @@ body {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--titles-text-color);
+  fill: var(--main-text-color);
 }
 .color-contacts {
   color: var(--main-text-color);
@@ -155,14 +156,10 @@ body {
 }
 
 .icon-envelope {
-  width: 16px;
-  height: 12px;
   margin-right: 10px;
 }
 
 .icon-phone {
-  width: 10px;
-  height: 16px;
   margin-right: 10px;
 }
 
@@ -237,7 +234,8 @@ body {
 }
 
 .features-list-item {
-  max-width: 270px;
+  width: 270px;
+  height: 251px;
 }
 
 .features-icon {
@@ -287,6 +285,11 @@ body {
   margin-top: 50px;
 
   justify-content: space-between;
+}
+
+.service-list-item {
+  width: 370px;
+  height: 294px;
 }
 
 /* ========= END SERVISES  ======== */
@@ -348,6 +351,11 @@ body {
   margin-top: 50px;
 }
 
+.clients-item {
+  width: 170px;
+  height: 90px;
+}
+
 .clients-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -359,8 +367,8 @@ body {
 
   border: 1px solid var(--border-color);
   border-radius: 4px;
-  width: 170px;
-  height: 90px;
+  width: 100%;
+  height: 100%;
 }
 
 .clients-link:hover {
@@ -371,41 +379,12 @@ body {
   fill: var(--accent-color);
 }
 
-.icon-1 {
-  width: 45px;
-  height: 50px;
-}
-
-.icon-2 {
-  width: 40px;
-  height: 52px;
-}
-
-.icon-3 {
-  width: 41px;
-  height: 43px;
-}
-
-.icon-4 {
-  width: 80px;
-  height: 42px;
-}
-
-.icon-5 {
-  width: 59px;
-  height: 47px;
-}
-
-.icon-6 {
-  width: 88px;
-  height: 45px;
-}
-
 /* ========= END CLIENTS ======== */
 
 /* ========= FOOTER CONTACTS ======== */
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer {
@@ -442,6 +421,11 @@ body {
 .footer-contact-item:not(:last-child) {
   margin-bottom: 9px;
 }
+
+.footer-contact-item {
+  width: 231px;
+  height: 21px;
+}
 .footer-contact-link {
   display: inline-block;
   font-size: 14px;
@@ -449,9 +433,9 @@ body {
   color: var(--white-color);
   color: var(--footer-link-color);
   font-style: normal;
-}
-.footer-social {
-  padding-top: 12px;
+
+  width: 100%;
+  height: 100%;
 }
 
 .join {
@@ -519,7 +503,7 @@ body {
 
 /* ======== PROJECTS =========*/
 
-.portfolio .container {
+.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -545,6 +529,8 @@ body {
   /* text-align: center; */
   /* margin-bottom: 30px; */
   margin: 15px;
+  width: 370px;
+  height: 404px;
 }
 
 .example:hover,
@@ -555,6 +541,8 @@ body {
 
 .example-link {
   color: inherit;
+  width: 100%;
+  height: 100%;
 }
 
 .example-name {
@@ -577,22 +565,28 @@ body {
 .social-list {
   display: flex;
 }
+
 .social-list-item:not(:last-child) {
   margin-right: 10px;
 }
 
 .team .social-list {
   margin-top: 16px;
-  /* width: 206px; */
+  width: 206px;
+}
+
+.social-list-item {
+  width: 44px;
+  height: 44px;
 }
 
 .social-link {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
 
-  width: 44px;
-  height: 44px;
   background-color: transparent;
   border-radius: 50%;
 }
@@ -608,12 +602,7 @@ body {
 }
 
 .icon {
-  fill: var(--main-text-color);
-}
-
-.soc-icon {
-  width: 20px;
-  height: 20px;
+  fill: var(--border-color);
 }
 
 .sub-title {
