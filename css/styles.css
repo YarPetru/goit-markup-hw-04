@@ -403,23 +403,22 @@ body {
 }
 
 .footer-address {
-  margin-top: 20px;
-
   font-size: 14px;
   line-height: 1.714;
   color: var(--white-color);
 }
 
 .address {
-  margin-top: 9px;
+  font-style: normal;
+  margin-top: 20px;
 }
 
 .footer-contacts {
   margin-right: 70px;
 }
 
-.footer-contact-item:not(:last-child) {
-  margin-bottom: 9px;
+.footer-contact-item {
+  margin-top: 9px;
 }
 
 .footer-contact-item {
